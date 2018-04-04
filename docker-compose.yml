@@ -1,0 +1,51 @@
+version: '3.3'
+services:
+
+  nginx:
+    image: nginx:1.13.11
+    container_name: nginx
+    depends_on:
+      - "node_app"
+    ports:
+      - "80:80"
+    volumes:
+      - /ChatApplication/dockers/nginx/conf.d:/etc/nginx/conf.d
+      - /ChatApplication/dockers/nginx/www:/var/nginx/www
+      - /ChatApplication/dockers/nginx/log:/var/log/nginx
+    networks:
+      - app_network
+
+  node_app:
+    image: node:8.5.0
+    container_name: node_app
+    depends_on:
+      - "mongodb"
+    ports:
+      - "8080:8080"
+      - "9229:9229"
+    volumes:
+      - /ChatApplication/dockers/node/src:/var/node/src
+      - /ChatApplication/dockers/node/log:/var/log/node
+    working_dir: /var/node/src
+    networks:
+      - app_network
+    command: "bash -c 'npm install && npm start'"
+
+  mongodb:
+    image: mongo:3.4.7
+    container_name: mongodb
+    ports:
+      - "27017:27017"
+    volumes:
+      - datastrage:/data/db
+      - /ChatApplication/dockers/mongodb/tmp:/var/tmp
+      - /ChatApplication/dockers/mongodb/log:/var/log/mongodb
+    networks:
+      - app_network
+    command: "bash -c 'mongod --logpath=/var/log/mongodb/mongodb.log --logappend'"
+
+volumes:
+  datastrage:
+
+networks:
+  app_network:

@@ -1,0 +1,120 @@
+Debugger listening on ws://0.0.0.0:9229/baf05c24-f3cd-42c1-94ab-c5a195a0567a
+For help see https://nodejs.org/en/docs/inspector
+Debugger listening on ws://0.0.0.0:9229/bc1cb1f5-6a07-4434-b460-c0d735d19166
+For help see https://nodejs.org/en/docs/inspector
+Debugger listening on ws://0.0.0.0:9229/63899f17-41ee-413e-9bf1-a8c930ae4ea2
+For help see https://nodejs.org/en/docs/inspector
+Debugger listening on ws://0.0.0.0:9229/204f12e9-12fd-45e2-b65c-c6531400b540
+For help see https://nodejs.org/en/docs/inspector
+Debugger listening on ws://0.0.0.0:9229/455e1e0b-a5ef-48ea-9407-6cab599f5821
+For help see https://nodejs.org/en/docs/inspector
+Debugger listening on ws://0.0.0.0:9229/929a1fd9-7a40-407a-bed7-ac392593c08c
+For help see https://nodejs.org/en/docs/inspector
+Debugger listening on ws://0.0.0.0:9229/a41a01df-40f9-4c44-babe-ce77fbdd2d7d
+For help see https://nodejs.org/en/docs/inspector
+/var/node/src/node_modules/mongodb/lib/mongo_client.js:804
+          throw err;
+          ^
+
+TypeError: db.collection is not a function
+    at findDocuments (/var/node/src/routes/mongo.js:22:25)
+    at MongoClient.connect (/var/node/src/routes/mongo.js:14:9)
+    at result (/var/node/src/node_modules/mongodb/lib/utils.js:414:17)
+    at executeCallback (/var/node/src/node_modules/mongodb/lib/utils.js:406:9)
+    at /var/node/src/node_modules/mongodb/lib/mongo_client.js:271:5
+    at connectCallback (/var/node/src/node_modules/mongodb/lib/mongo_client.js:940:5)
+    at /var/node/src/node_modules/mongodb/lib/mongo_client.js:801:11
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Debugger listening on ws://0.0.0.0:9229/a14f53ba-ee74-420d-a547-42500575d7d7
+For help see https://nodejs.org/en/docs/inspector
+/var/node/src/node_modules/mongodb/lib/mongo_client.js:804
+          throw err;
+          ^
+
+TypeError: db.collection is not a function
+    at findDocuments (/var/node/src/routes/mongo.js:22:25)
+    at MongoClient.connect (/var/node/src/routes/mongo.js:14:9)
+    at result (/var/node/src/node_modules/mongodb/lib/utils.js:414:17)
+    at executeCallback (/var/node/src/node_modules/mongodb/lib/utils.js:406:9)
+    at /var/node/src/node_modules/mongodb/lib/mongo_client.js:271:5
+    at connectCallback (/var/node/src/node_modules/mongodb/lib/mongo_client.js:940:5)
+    at /var/node/src/node_modules/mongodb/lib/mongo_client.js:801:11
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Debugger listening on ws://0.0.0.0:9229/16344f98-fe14-4f94-a40c-dd1ab9cf91a7
+For help see https://nodejs.org/en/docs/inspector
+/var/node/src/node_modules/mongodb/lib/mongo_client.js:804
+          throw err;
+          ^
+
+TypeError: db.collection is not a function
+    at findDocuments (/var/node/src/routes/mongo.js:22:25)
+    at MongoClient.connect (/var/node/src/routes/mongo.js:14:9)
+    at result (/var/node/src/node_modules/mongodb/lib/utils.js:414:17)
+    at executeCallback (/var/node/src/node_modules/mongodb/lib/utils.js:406:9)
+    at /var/node/src/node_modules/mongodb/lib/mongo_client.js:271:5
+    at connectCallback (/var/node/src/node_modules/mongodb/lib/mongo_client.js:940:5)
+    at /var/node/src/node_modules/mongodb/lib/mongo_client.js:801:11
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Debugger listening on ws://0.0.0.0:9229/7ab20fcf-0d3d-4125-802c-f1f4477113fb
+For help see https://nodejs.org/en/docs/inspector
+/var/node/src/node_modules/mongodb/lib/mongo_client.js:804
+          throw err;
+          ^
+
+TypeError: db.collection is not a function
+    at findDocuments (/var/node/src/routes/mongo.js:22:25)
+    at MongoClient.connect (/var/node/src/routes/mongo.js:14:9)
+    at result (/var/node/src/node_modules/mongodb/lib/utils.js:414:17)
+    at executeCallback (/var/node/src/node_modules/mongodb/lib/utils.js:406:9)
+    at /var/node/src/node_modules/mongodb/lib/mongo_client.js:271:5
+    at connectCallback (/var/node/src/node_modules/mongodb/lib/mongo_client.js:940:5)
+    at /var/node/src/node_modules/mongodb/lib/mongo_client.js:801:11
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Debugger listening on ws://0.0.0.0:9229/5b372fd5-716f-409c-9630-d817ff53f56f
+For help see https://nodejs.org/en/docs/inspector
+Debugger listening on ws://0.0.0.0:9229/5981102a-6d52-4a92-a652-5130d703abd4
+For help see https://nodejs.org/en/docs/inspector
+Debugger listening on ws://0.0.0.0:9229/7668dee1-0c0b-402d-9c41-ff3b3808a8da
+For help see https://nodejs.org/en/docs/inspector
+/var/node/src/node_modules/mongodb/lib/mongo_client.js:792
+          throw err;
+          ^
+
+TypeError: Cannot read property 'collection' of null
+    at findDocuments (/var/node/src/routes/mongo.js:22:24)
+    at MongoClient.connect (/var/node/src/routes/mongo.js:14:9)
+    at err (/var/node/src/node_modules/mongodb/lib/utils.js:415:14)
+    at executeCallback (/var/node/src/node_modules/mongodb/lib/utils.js:404:25)
+    at /var/node/src/node_modules/mongodb/lib/mongo_client.js:270:21
+    at connectCallback (/var/node/src/node_modules/mongodb/lib/mongo_client.js:940:5)
+    at /var/node/src/node_modules/mongodb/lib/mongo_client.js:789:11
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Debugger listening on ws://0.0.0.0:9229/88bd4692-201c-445b-8e3b-825f721cc257
+For help see https://nodejs.org/en/docs/inspector
+Debugger listening on ws://0.0.0.0:9229/2e87c595-c585-4817-a148-a34577058144
+For help see https://nodejs.org/en/docs/inspector
+Debugger listening on ws://0.0.0.0:9229/730da9c0-7f4d-43fe-ad9f-1892c48d1f88
+For help see https://nodejs.org/en/docs/inspector
+/var/node/src/node_modules/mongodb/lib/mongo_client.js:804
+          throw err;
+          ^
+
+TypeError: db.collection is not a function
+    at findDocuments (/var/node/src/routes/mongo.js:22:25)
+    at MongoClient.connect (/var/node/src/routes/mongo.js:14:9)
+    at result (/var/node/src/node_modules/mongodb/lib/utils.js:414:17)
+    at executeCallback (/var/node/src/node_modules/mongodb/lib/utils.js:406:9)
+    at /var/node/src/node_modules/mongodb/lib/mongo_client.js:271:5
+    at connectCallback (/var/node/src/node_modules/mongodb/lib/mongo_client.js:940:5)
+    at /var/node/src/node_modules/mongodb/lib/mongo_client.js:801:11
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Debugger listening on ws://0.0.0.0:9229/060ca8fe-7edc-49cd-b3e0-5f240f8b0087
+For help see https://nodejs.org/en/docs/inspector
+Debugger listening on ws://0.0.0.0:9229/d3fe4d41-aed9-45d3-9984-7f3289cf950b
+For help see https://nodejs.org/en/docs/inspector

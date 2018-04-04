@@ -1,0 +1,23 @@
+{
+  "name": "chatapp",
+  "version": "0.0.1",
+  "description": "Node.js on Docker",
+  "author": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "NODE_ENV=development NODE_LOG_DIR=/var/log/node node_modules/forever/bin/forever -w -a -o /var/log/node/forever.log -e /var/log/node/forever.log -c 'node --inspect=0.0.0.0:9229' server.js"
+  },
+  "dependencies": {
+    "express": "4.16.3",
+    "body-parser": "1.18.2",
+    "ejs": "2.5.7",
+    "cookie-parser": "1.4.3",
+    "forever": "0.15.3",
+    "log4js": "2.5.3",
+    "mongodb": "3.0.5",
+    "mongoose": "5.0.12",
+    "express-react-views": "0.10.5",
+    "react": "16.3.1",
+    "react-dom": "16.3.1"
+  }
+}

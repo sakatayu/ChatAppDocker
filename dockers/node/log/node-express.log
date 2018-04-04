@@ -1,0 +1,50 @@
+[2018-04-04T07:21:47.221] [INFO] default - Running on http://0.0.0.0:8080
+[2018-04-04T07:29:33.202] [DEBUG] default - request url: / method:GET
+[2018-04-04T07:29:36.177] [DEBUG] default - request url: /mongo method:GET
+[2018-04-04T07:31:28.621] [DEBUG] default - request url: / method:GET
+[2018-04-04T07:34:58.120] [DEBUG] default - request url: / method:GET
+[2018-04-04T07:36:10.625] [INFO] default - Running on http://0.0.0.0:8080
+[2018-04-04T07:37:18.146] [INFO] default - Running on http://0.0.0.0:8080
+[2018-04-04T07:37:58.577] [INFO] default - Running on http://0.0.0.0:8080
+[2018-04-04T07:37:59.365] [DEBUG] default - request url: / method:GET
+[2018-04-04T07:38:01.040] [DEBUG] default - request url: / method:GET
+[2018-04-04T07:39:35.362] [INFO] default - Running on http://0.0.0.0:8080
+[2018-04-04T07:39:53.773] [INFO] default - Running on http://0.0.0.0:8080
+[2018-04-04T07:39:55.036] [DEBUG] default - request url: / method:GET
+[2018-04-04T08:06:15.151] [INFO] default - Running on http://0.0.0.0:8080
+[2018-04-04T08:06:23.323] [DEBUG] default - request url: / method:GET
+[2018-04-04T08:06:32.200] [DEBUG] default - request url: /mongo method:GET
+[2018-04-04T08:06:33.443] [INFO] default - Running on http://0.0.0.0:8080
+[2018-04-04T08:07:47.893] [DEBUG] default - request url: / method:GET
+[2018-04-04T08:07:48.184] [DEBUG] default - request url: /favicon.ico method:GET
+[2018-04-04T08:07:48.184] [ERROR] default - error:[object Object]
+[2018-04-04T08:07:48.185] [ERROR] default - error:Error: Not Found
+[2018-04-04T08:07:58.102] [DEBUG] default - request url: /mongi method:GET
+[2018-04-04T08:07:58.102] [ERROR] default - error:[object Object]
+[2018-04-04T08:07:58.102] [ERROR] default - error:Error: Not Found
+[2018-04-04T08:08:02.009] [DEBUG] default - request url: /mongo method:GET
+[2018-04-04T08:08:03.277] [INFO] default - Running on http://0.0.0.0:8080
+[2018-04-04T08:10:06.036] [DEBUG] default - request url: / method:GET
+[2018-04-04T08:10:06.078] [DEBUG] default - request url: /favicon.ico method:GET
+[2018-04-04T08:10:06.079] [ERROR] default - error:[object Object]
+[2018-04-04T08:10:06.079] [ERROR] default - error:Error: Not Found
+[2018-04-04T08:10:09.686] [DEBUG] default - request url: / method:GET
+[2018-04-04T08:10:20.887] [DEBUG] default - request url: /mongo method:GET
+[2018-04-04T08:10:22.394] [INFO] default - Running on http://0.0.0.0:8080
+[2018-04-04T08:13:17.191] [DEBUG] default - request url: /mongo method:GET
+[2018-04-04T08:13:18.568] [INFO] default - Running on http://0.0.0.0:8080
+[2018-04-04T08:13:19.440] [DEBUG] default - request url: / method:GET
+[2018-04-04T08:13:57.040] [INFO] default - Running on http://0.0.0.0:8080
+[2018-04-04T08:16:07.249] [INFO] default - Running on http://0.0.0.0:8080
+[2018-04-04T08:16:23.202] [DEBUG] default - request url: / method:GET
+[2018-04-04T08:16:26.201] [DEBUG] default - request url: /mongo method:GET
+[2018-04-04T08:16:27.506] [INFO] default - Running on http://0.0.0.0:8080
+[2018-04-04T08:22:14.556] [INFO] default - Running on http://0.0.0.0:8080
+[2018-04-04T08:23:00.774] [INFO] default - Running on http://0.0.0.0:8080
+[2018-04-04T08:23:01.123] [DEBUG] default - request url: / method:GET
+[2018-04-04T08:23:04.840] [DEBUG] default - request url: /mongi method:GET
+[2018-04-04T08:23:04.841] [ERROR] default - error:[object Object]
+[2018-04-04T08:23:04.841] [ERROR] default - error:Error: Not Found
+[2018-04-04T08:23:06.876] [DEBUG] default - request url: /mongo method:GET
+[2018-04-04T08:23:08.193] [INFO] default - Running on http://0.0.0.0:8080
+[2018-04-04T08:23:51.081] [INFO] default - Running on http://0.0.0.0:8080
